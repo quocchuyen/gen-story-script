@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "Histoire IA",
+  "headerTitleSpan": "Scripteur",
+  "headerSubtitle": "Création de narrations YouTube captivantes sur les dynamiques familiales complexes.",
+  "formLabelLanguage": "Langue",
+  "formLabelStoryIdea": "Votre idée d'histoire",
+  "formPlaceholderStoryIdea": "ex., Un père tente de renouer avec sa fille dont il est séparé en révélant un secret de famille longtemps gardé...",
+  "formLabelTone": "Ton",
+  "formLabelModel": "Modèle d'IA",
+  "buttonGenerate": "Générer le script",
+  "buttonGenerating": "Création du script...",
+  "errorPrefix": "Erreur :",
+  "scriptHeader": "Script généré",
+  "copyButtonText": "Copier le script",
+  "copyButtonCopied": "Copié !",
+  "copyButtonFailed": "Échec de la copie",
+  "downloadButtonText": "Télécharger",
+  "loadingTitle": "L'IA est en train d'écrire...",
+  "loadingSubtitle": "Cela peut prendre un moment. Veuillez patienter.",
+  "tones": {
+    "dramatic": "Dramatique",
+    "suspenseful": "Suspense",
+    "heartwarming": "Émouvant",
+    "melancholic": "Mélancolique",
+    "inspirational": "Inspirant"
+  },
+  "geminiPrompt": "Vous êtes un scénariste expert spécialisé dans la création de narrations YouTube de 10 minutes sur les dynamiques et les conflits familiaux complexes. Votre tâche consiste à transformer une simple idée d'histoire en un script complet d'environ 1 800 à 2 200 mots.\n\nSuivez ces règles STRICTEMENT :\n\n1.  **STRUCTURE :** Le script DOIT comporter trois sections distinctes et clairement identifiées : [Intro], [Histoire principale] et [Outro].\n2.  **INTRO :** L'[Intro] doit être une accroche à forte rétention, d'environ 30 à 45 secondes (environ 100-150 mots), conçue pour capter immédiatement l'attention du spectateur. Elle doit poser une question ou présenter un scénario choquant lié à l'histoire.\n3.  **HISTOIRE PRINCIPALE :** L'[Histoire principale] doit être divisée en 5 à 7 scènes détaillées. Chaque scène doit faire monter la tension, explorer un conflit émotionnel profond et mener à un point culminant puissant. Utilisez abondamment la technique 'Montrer, ne pas raconter'.\n4.  **OUTRO :** L'[Outro] doit fournir une leçon de morale significative tirée de l'histoire et inclure un appel à l'action pour que le public s'abonne, aime et commente.\n5.  **REMPLACEMENT DES NOMS (OBLIGATOIRE) :** Vous DEVEZ remplacer TOUS les noms de personnages de l'idée originale de l'utilisateur par des noms nouveaux, uniques et appropriés. Vous devez maintenir la cohérence avec ces nouveaux noms tout au long du script. N'utilisez PAS les noms de l'idée de l'utilisateur.\n6.  **STYLE D'ÉCRITURE :** L'écriture doit présenter un réalisme psychologique, des dialogues intenses et des monologues intérieurs profonds. Concentrez-vous sur le trouble intérieur des personnages et leurs pensées inexprimées.\n7.  **FORMATAGE :** Étiquetez clairement tous les locuteurs pour faciliter la conversion texte-parole. Utilisez le format [Narrateur], [Nom du personnage] et [Monologue intérieur] pour chaque ligne.\n8.  **TON :** Le ton général du script DOIT être {{tone}}. Cela doit influencer le choix des mots, le rythme et l'atmosphère émotionnelle de la narration et du dialogue.\n\nVoici l'idée d'histoire de l'utilisateur :\n\"{{storyIdea}}\"\n\nMaintenant, générez le script complet basé sur cette idée et toutes les règles fournies."
+}

@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "Câu chuyện AI",
+  "headerTitleSpan": "Scripter",
+  "headerSubtitle": "Tạo ra các bài tường thuật YouTube hấp dẫn về động lực gia đình phức tạp.",
+  "formLabelLanguage": "Ngôn ngữ",
+  "formLabelStoryIdea": "Ý tưởng câu chuyện của bạn",
+  "formPlaceholderStoryIdea": "ví dụ: Một người cha cố gắng kết nối lại với cô con gái ghẻ lạnh bằng cách tiết lộ một bí mật gia đình được giữ kín từ lâu...",
+  "formLabelTone": "Tông giọng",
+  "formLabelModel": "Mô hình AI",
+  "buttonGenerate": "Tạo kịch bản",
+  "buttonGenerating": "Đang tạo kịch bản...",
+  "errorPrefix": "Lỗi:",
+  "scriptHeader": "Kịch bản đã tạo",
+  "copyButtonText": "Sao chép kịch bản",
+  "copyButtonCopied": "Đã sao chép!",
+  "copyButtonFailed": "Sao chép thất bại",
+  "downloadButtonText": "Tải xuống",
+  "loadingTitle": "AI đang viết...",
+  "loadingSubtitle": "Việc này có thể mất một chút thời gian. Vui lòng đợi.",
+  "tones": {
+    "dramatic": "Kịch tính",
+    "suspenseful": "Hồi hộp",
+    "heartwarming": "Ấm áp",
+    "melancholic": "U sầu",
+    "inspirational": "Truyền cảm hứng"
+  },
+  "geminiPrompt": "Bạn là một nhà biên kịch chuyên nghiệp chuyên tạo ra các bài tường thuật YouTube dài 10 phút về các động lực và xung đột gia đình phức tạp. Nhiệm vụ của bạn là biến một ý tưởng câu chuyện đơn giản thành một kịch bản hoàn chỉnh dài khoảng 1.800 đến 2.200 từ.\n\nHãy tuân thủ NGHIÊM NGẶT các quy tắc sau:\n\n1.  **CẤU TRÚC:** Kịch bản PHẢI có ba phần riêng biệt, được dán nhãn rõ ràng: [Giới thiệu], [Câu chuyện chính] và [Kết thúc].\n2.  **GIỚI THIỆU:** Phần [Giới thiệu] phải là một đoạn hấp dẫn, giữ chân người xem, dài khoảng 30-45 giây (khoảng 100-150 từ), được thiết kế để thu hút sự chú ý của người xem ngay lập tức. Nó nên đặt ra một câu hỏi hoặc trình bày một kịch bản gây sốc liên quan đến câu chuyện.\n3.  **CÂU CHUYỆN CHÍNH:** [Câu chuyện chính] phải được chia thành 5 đến 7 cảnh chi tiết. Mỗi cảnh nên xây dựng sự căng thẳng, khám phá xung đột cảm xúc sâu sắc và dẫn đến một cao trào mạnh mẽ. Sử dụng kỹ thuật 'Hiển thị, không kể' một cách rộng rãi.\n4.  **KẾT THÚC:** Phần [Kết thúc] phải cung cấp một bài học đạo đức ý nghĩa rút ra từ câu chuyện và bao gồm lời kêu gọi hành động để khán giả đăng ký, thích và bình luận.\n5.  **THAY THẾ TÊN (BẮT BUỘC):** Bạn PHẢI thay thế TẤT CẢ tên nhân vật từ ý tưởng ban đầu của người dùng bằng những cái tên mới, độc đáo và phù hợp. Bạn phải duy trì tính nhất quán với những cái tên mới này trong toàn bộ kịch bản. KHÔNG sử dụng tên từ ý tưởng của người dùng.\n6.  **PHONG CÁCH VIẾT:** Bài viết phải có tính hiện thực tâm lý, đối thoại căng thẳng và độc thoại nội tâm sâu sắc. Tập trung vào sự hỗn loạn nội tâm và những suy nghĩ không nói ra của các nhân vật.\n7.  **ĐỊNH DẠNG:** Ghi nhãn rõ ràng tất cả người nói để dễ dàng chuyển đổi văn bản thành giọng nói. Sử dụng định dạng [Người kể chuyện], [Tên nhân vật] và [Độc thoại nội tâm] cho mỗi dòng.\n8.  **TÔNG GIỌNG:** Tông giọng chung của kịch bản PHẢI là {{tone}}. Điều này sẽ ảnh hưởng đến việc lựa chọn từ ngữ, nhịp độ và không khí cảm xúc của bài tường thuật và đối thoại.\n\nĐây là ý tưởng câu chuyện của người dùng:\n\"{{storyIdea}}\"\n\nBây giờ, hãy tạo kịch bản hoàn chỉnh dựa trên ý tưởng này và tất cả các quy tắc đã cung cấp."
+}

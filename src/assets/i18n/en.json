@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "AI Story",
+  "headerTitleSpan": "Scripter",
+  "headerSubtitle": "Crafting compelling YouTube narrations on complex family dynamics.",
+  "formLabelLanguage": "Language",
+  "formLabelStoryIdea": "Your Story Idea",
+  "formPlaceholderStoryIdea": "e.g., A father tries to reconnect with his estranged daughter by revealing a long-held family secret...",
+  "formLabelTone": "Tone",
+  "formLabelModel": "AI Model",
+  "buttonGenerate": "Generate Script",
+  "buttonGenerating": "Crafting Script...",
+  "errorPrefix": "Error:",
+  "scriptHeader": "Generated Script",
+  "copyButtonText": "Copy Script",
+  "copyButtonCopied": "Copied!",
+  "copyButtonFailed": "Copy Failed",
+  "downloadButtonText": "Download",
+  "loadingTitle": "The AI is writing...",
+  "loadingSubtitle": "This can take a moment. Please wait.",
+  "tones": {
+    "dramatic": "Dramatic",
+    "suspenseful": "Suspenseful",
+    "heartwarming": "Heartwarming",
+    "melancholic": "Melancholic",
+    "inspirational": "Inspirational"
+  },
+  "geminiPrompt": "You are an expert scriptwriter specializing in creating 10-minute YouTube narrations about complex family dynamics and conflicts. Your task is to transform a simple story idea into a full-length script of approximately 1,800 to 2,200 words.\n\nFollow these rules STRICTLY:\n\n1.  **STRUCTURE:** The script MUST have three distinct, clearly labeled sections: [Intro], [Main Story], and [Outro].\n2.  **INTRO:** The [Intro] must be a high-retention hook, about 30-45 seconds long (approx. 100-150 words), designed to grab the viewer's attention immediately. It should pose a question or present a shocking scenario related to the story.\n3.  **MAIN STORY:** The [Main Story] must be divided into 5 to 7 detailed scenes. Each scene should build tension, explore deep emotional conflict, and lead to a powerful climax. Use the 'Show, Don't Tell' technique extensively.\n4.  **OUTRO:** The [Outro] must provide a meaningful moral lesson derived from the story and include a call-to-action for the audience to subscribe, like, and comment.\n5.  **NAME REPLACEMENT (MANDATORY):** You MUST replace ALL character names from the user's original idea with new, unique, and fitting names. You must maintain consistency with these new names throughout the entire script. Do NOT use the names from the user's idea.\n6.  **WRITING STYLE:** The writing must feature psychological realism, intense dialogue, and deep internal monologues. Focus on the characters' inner turmoil and unspoken thoughts.\n7.  **FORMATTING:** Clearly label all speakers for easy text-to-speech conversion. Use the format [Narrator], [Character Name], and [Internal Monologue] for each line.\n8.  **TONE:** The script's overall tone MUST be {{tone}}. This should influence the word choice, pacing, and emotional atmosphere of the narration and dialogue.\n\nHere is the user's story idea:\n\"{{storyIdea}}\"\n\nNow, generate the complete script based on this idea and all the rules provided."
+}

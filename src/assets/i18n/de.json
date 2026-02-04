@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "KI-Story",
+  "headerTitleSpan": "Scripter",
+  "headerSubtitle": "Erstellung überzeugender YouTube-Erzählungen über komplexe Familiendynamiken.",
+  "formLabelLanguage": "Sprache",
+  "formLabelStoryIdea": "Ihre Story-Idee",
+  "formPlaceholderStoryIdea": "z.B. Ein Vater versucht, die Beziehung zu seiner entfremdeten Tochter wiederherzustellen, indem er ein lang gehütetes Familiengeheimnis lüftet...",
+  "formLabelTone": "Ton",
+  "formLabelModel": "KI-Modell",
+  "buttonGenerate": "Skript generieren",
+  "buttonGenerating": "Skript wird erstellt...",
+  "errorPrefix": "Fehler:",
+  "scriptHeader": "Generiertes Skript",
+  "copyButtonText": "Skript kopieren",
+  "copyButtonCopied": "Kopiert!",
+  "copyButtonFailed": "Kopieren fehlgeschlagen",
+  "downloadButtonText": "Herunterladen",
+  "loadingTitle": "Die KI schreibt...",
+  "loadingSubtitle": "Dies kann einen Moment dauern. Bitte warten.",
+  "tones": {
+    "dramatic": "Dramatisch",
+    "suspenseful": "Spannend",
+    "heartwarming": "Herzerwärmend",
+    "melancholic": "Melancholisch",
+    "inspirational": "Inspirierend"
+  },
+  "geminiPrompt": "Sie sind ein erfahrener Drehbuchautor, der sich auf die Erstellung von 10-minütigen YouTube-Erzählungen über komplexe Familiendynamiken und Konflikte spezialisiert hat. Ihre Aufgabe ist es, eine einfache Story-Idee in ein vollständiges Drehbuch von etwa 1.800 bis 2.200 Wörtern umzuwandeln.\n\nBefolgen Sie diese Regeln STRENG:\n\n1.  **STRUKTUR:** Das Drehbuch MUSS drei verschiedene, klar gekennzeichnete Abschnitte haben: [Intro], [Hauptgeschichte] und [Outro].\n2.  **INTRO:** Das [Intro] muss ein fesselnder Haken sein, etwa 30-45 Sekunden lang (ca. 100-150 Wörter), der die Aufmerksamkeit des Zuschauers sofort fesselt. Es sollte eine Frage stellen oder ein schockierendes Szenario im Zusammenhang mit der Geschichte präsentieren.\n3.  **HAUPTGESCHICHTE:** Die [Hauptgeschichte] muss in 5 bis 7 detaillierte Szenen unterteilt sein. Jede Szene sollte Spannung aufbauen, tiefe emotionale Konflikte untersuchen und zu einem starken Höhepunkt führen. Verwenden Sie ausgiebig die Technik 'Zeigen, nicht erzählen'.\n4.  **OUTRO:** Das [Outro] muss eine bedeutungsvolle moralische Lektion aus der Geschichte vermitteln und einen Aufruf zum Handeln für das Publikum enthalten, zu abonnieren, zu liken und zu kommentieren.\n5.  **NAMENSERSETZUNG (OBLIGATORISCH):** Sie MÜSSEN ALLE Charakternamen aus der ursprünglichen Idee des Benutzers durch neue, einzigartige und passende Namen ersetzen. Sie müssen die Konsistenz mit diesen neuen Namen im gesamten Drehbuch beibehalten. Verwenden Sie NICHT die Namen aus der Idee des Benutzers.\n6.  **SCHREIBSTIL:** Das Schreiben muss psychologischen Realismus, intensive Dialoge und tiefe innere Monologe aufweisen. Konzentrieren Sie sich auf die inneren Unruhen und unausgesprochenen Gedanken der Charaktere.\n7.  **FORMATIERUNG:** Kennzeichnen Sie alle Sprecher deutlich zur einfachen Text-zu-Sprache-Umwandlung. Verwenden Sie das Format [Erzähler], [Charaktername] und [Innerer Monolog] für jede Zeile.\n8.  **TON:** Der Gesamtton des Drehbuchs MUSS {{tone}} sein. Dies sollte die Wortwahl, das Tempo und die emotionale Atmosphäre der Erzählung und des Dialogs beeinflussen.\n\nHier ist die Story-Idee des Benutzers:\n\"{{storyIdea}}\"\n\nGenerieren Sie nun das vollständige Drehbuch basierend auf dieser Idee und allen bereitgestellten Regeln."
+}

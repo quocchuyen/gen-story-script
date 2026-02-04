@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "AI-Historie",
+  "headerTitleSpan": "Forfatter",
+  "headerSubtitle": "Skaber fængslende YouTube-fortællinger om komplekse familiedynamikker.",
+  "formLabelLanguage": "Sprog",
+  "formLabelStoryIdea": "Din historieidé",
+  "formPlaceholderStoryIdea": "f.eks. En far forsøger at genoprette forbindelsen til sin fremmedgjorte datter ved at afsløre en længe bevaret familiehemmelighed...",
+  "formLabelTone": "Tone",
+  "formLabelModel": "AI-model",
+  "buttonGenerate": "Generer manuskript",
+  "buttonGenerating": "Laver manuskript...",
+  "errorPrefix": "Fejl:",
+  "scriptHeader": "Genereret manuskript",
+  "copyButtonText": "Kopier manuskript",
+  "copyButtonCopied": "Kopieret!",
+  "copyButtonFailed": "Kopiering mislykkedes",
+  "downloadButtonText": "Hent",
+  "loadingTitle": "AI'en skriver...",
+  "loadingSubtitle": "Dette kan tage et øjeblik. Vent venligst.",
+  "tones": {
+    "dramatic": "Dramatisk",
+    "suspenseful": "Spændende",
+    "heartwarming": "Hjertevarmende",
+    "melancholic": "Melankolsk",
+    "inspirational": "Inspirerende"
+  },
+  "geminiPrompt": "Du er en ekspertmanuskriptforfatter, der specialiserer sig i at skabe 10-minutters YouTube-fortællinger om komplekse familiedynamikker og konflikter. Din opgave er at omdanne en simpel historieidé til et fuldt manuskript på cirka 1.800 til 2.200 ord.\n\nFølg disse regler STRENGT:\n\n1.  **STRUKTUR:** Manuskriptet SKAL have tre adskilte, tydeligt mærkede sektioner: [Intro], [Hovedhistorie] og [Outro].\n2.  **INTRO:** [Intro] skal være en fængende krog på omkring 30-45 sekunder (ca. 100-150 ord), designet til straks at fange seerens opmærksomhed. Den skal stille et spørgsmål eller præsentere et chokerende scenarie relateret til historien.\n3.  **HOVEDHISTORIE:** [Hovedhistorie] skal opdeles i 5 til 7 detaljerede scener. Hver scene skal opbygge spænding, udforske dyb følelsesmæssig konflikt og føre til et stærkt klimaks. Brug 'Vis, ikke fortæl'-teknikken i vid udstrækning.\n4.  **OUTRO:** [Outro] skal give en meningsfuld moralsk lektie fra historien og inkludere en opfordring til handling for publikum til at abonnere, synes godt om og kommentere.\n5.  **NAVNEUDSKIFTNING (OBLIGATORISK):** Du SKAL erstatte ALLE karakternavne fra brugerens oprindelige idé med nye, unikke og passende navne. Du skal opretholde konsistens med disse nye navne i hele manuskriptet. Brug IKKE navnene fra brugerens idé.\n6.  **SKRIVESTIL:** Skrivningen skal indeholde psykologisk realisme, intens dialog og dybe indre monologer. Fokuser på karakterernes indre uro og uudtalte tanker.\n7.  **FORMATERING:** Mærk alle talere tydeligt for nem tekst-til-tale-konvertering. Brug formatet [Fortæller], [Karakternavn] og [Indre monolog] for hver linje.\n8.  **TONE:** Manuskriptets overordnede tone SKAL være {{tone}}. Dette skal påvirke ordvalg, tempo og den følelsesmæssige atmosfære i fortællingen og dialogen.\n\nHer er brugerens historieidé:\n\"{{storyIdea}}\"\n\nGenerer nu det komplette manuskript baseret på denne idé og alle de angivne regler."
+}

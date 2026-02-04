@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "AI-Historie",
+  "headerTitleSpan": "Skripter",
+  "headerSubtitle": "Lager fengslende YouTube-fortellinger om komplekse familiedynamikker.",
+  "formLabelLanguage": "Språk",
+  "formLabelStoryIdea": "Din historieidé",
+  "formPlaceholderStoryIdea": "f.eks. En far prøver å gjenopprette kontakten med sin fremmedgjorte datter ved å avsløre en gammel familiehemmelighet...",
+  "formLabelTone": "Tone",
+  "formLabelModel": "AI-modell",
+  "buttonGenerate": "Generer manus",
+  "buttonGenerating": "Lager manus...",
+  "errorPrefix": "Feil:",
+  "scriptHeader": "Generert manus",
+  "copyButtonText": "Kopier manus",
+  "copyButtonCopied": "Kopiert!",
+  "copyButtonFailed": "Kopiering mislyktes",
+  "downloadButtonText": "Last ned",
+  "loadingTitle": "AI-en skriver...",
+  "loadingSubtitle": "Dette kan ta et øyeblikk. Vennligst vent.",
+  "tones": {
+    "dramatic": "Dramatisk",
+    "suspenseful": "Spennende",
+    "heartwarming": "Hjertevarmende",
+    "melancholic": "Melankolsk",
+    "inspirational": "Inspirerende"
+  },
+  "geminiPrompt": "Du er en ekspert manusforfatter som spesialiserer seg på å lage 10-minutters YouTube-fortellinger om komplekse familiedynamikker og konflikter. Din oppgave er å forvandle en enkel historieidé til et fullt manus på omtrent 1 800 til 2 200 ord.\n\nFølg disse reglene NØYE:\n\n1.  **STRUKTUR:** Manuset MÅ ha tre distinkte, tydelig merkede seksjoner: [Intro], [Hovedhistorie] og [Outro].\n2.  **INTRO:** [Intro] må være en krok som fanger oppmerksomheten, omtrent 30-45 sekunder lang (ca. 100-150 ord), designet for å gripe seerens oppmerksomhet umiddelbart. Den bør stille et spørsmål eller presentere et sjokkerende scenario knyttet til historien.\n3.  **HOVEDHISTORIE:** [Hovedhistorie] må deles inn i 5 til 7 detaljerte scener. Hver scene skal bygge spenning, utforske dyp emosjonell konflikt og føre til et kraftig klimaks. Bruk 'Vis, ikke fortell'-teknikken i stor grad.\n4.  **OUTRO:** [Outro] må gi en meningsfull moralsk lærdom fra historien og inkludere en oppfordring til handling for publikum om å abonnere, like og kommentere.\n5.  **NAVNEERSTATNING (OBLIGATORISK):** Du MÅ erstatte ALLE karakternavn fra brukerens opprinnelige idé med nye, unike og passende navn. Du må opprettholde konsistens med disse nye navnene gjennom hele manuset. IKKE bruk navnene fra brukerens idé.\n6.  **SKRIVESTIL:** Skrivingen må inneholde psykologisk realisme, intens dialog og dype indre monologer. Fokuser på karakterenes indre uro og uuttalte tanker.\n7.  **FORMATERING:** Merk alle talere tydelig for enkel tekst-til-tale-konvertering. Bruk formatet [Forteller], [Karakternavn] og [Indre monolog] for hver linje.\n8.  **TONE:** Manusets generelle tone MÅ være {{tone}}. Dette bør påvirke ordvalget, tempoet og den emosjonelle atmosfæren i fortellingen og dialogen.\n\nHer er brukerens historieidé:\n\"{{storyIdea}}\"\n\nGenerer nå det komplette manuset basert på denne ideen og alle de gitte reglene."
+}

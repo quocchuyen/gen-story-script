@@ -1,0 +1,29 @@
+
+{
+  "headerTitle": "AI Verhaal",
+  "headerTitleSpan": "Scripter",
+  "headerSubtitle": "Het maken van boeiende YouTube-vertellingen over complexe familiedynamiek.",
+  "formLabelLanguage": "Taal",
+  "formLabelStoryIdea": "Jouw verhaalidee",
+  "formPlaceholderStoryIdea": "bijv. Een vader probeert de band met zijn vervreemde dochter te herstellen door een lang bewaard familiegeheim te onthullen...",
+  "formLabelTone": "Toon",
+  "formLabelModel": "AI-model",
+  "buttonGenerate": "Script genereren",
+  "buttonGenerating": "Script wordt gemaakt...",
+  "errorPrefix": "Fout:",
+  "scriptHeader": "Gegenereerd script",
+  "copyButtonText": "Script kopiëren",
+  "copyButtonCopied": "Gekopieerd!",
+  "copyButtonFailed": "Kopiëren mislukt",
+  "downloadButtonText": "Downloaden",
+  "loadingTitle": "De AI is aan het schrijven...",
+  "loadingSubtitle": "Dit kan even duren. Even geduld, alstublieft.",
+  "tones": {
+    "dramatic": "Dramatisch",
+    "suspenseful": "Spannend",
+    "heartwarming": "Hartverwarmend",
+    "melancholic": "Melancholisch",
+    "inspirational": "Inspirerend"
+  },
+  "geminiPrompt": "U bent een deskundige scenarioschrijver, gespecialiseerd in het creëren van 10 minuten durende YouTube-vertellingen over complexe familiedynamiek en conflicten. Uw taak is om een eenvoudig verhaalidee om te zetten in een volledig script van ongeveer 1.800 tot 2.200 woorden.\n\nVolg deze regels STRIKT:\n\n1.  **STRUCTUUR:** Het script MOET drie afzonderlijke, duidelijk gelabelde secties hebben: [Intro], [Hoofdverhaal] en [Outro].\n2.  **INTRO:** De [Intro] moet een aandachttrekkende hook zijn, ongeveer 30-45 seconden lang (ongeveer 100-150 woorden), ontworpen om de aandacht van de kijker onmiddellijk te trekken. Het moet een vraag stellen of een schokkend scenario presenteren dat verband houdt met het verhaal.\n3.  **HOOFDVERHAAL:** Het [Hoofdverhaal] moet worden onderverdeeld in 5 tot 7 gedetailleerde scènes. Elke scène moet spanning opbouwen, diepe emotionele conflicten onderzoeken en leiden tot een krachtige climax. Maak uitgebreid gebruik van de 'Show, Don't Tell'-techniek.\n4.  **OUTRO:** De [Outro] moet een betekenisvolle moraal bieden die uit het verhaal is afgeleid en een oproep tot actie bevatten voor het publiek om zich te abonneren, te liken en commentaar te geven.\n5.  **NAAMVERVANGING (VERPLICHT):** U MOET ALLE karakternamen uit het oorspronkelijke idee van de gebruiker vervangen door nieuwe, unieke en passende namen. U moet de consistentie met deze nieuwe namen in het hele script handhaven. Gebruik NIET de namen uit het idee van de gebruiker.\n6.  **SCHRIJFSTIJL:** Het schrijven moet psychologisch realisme, intense dialogen en diepe innerlijke monologen bevatten. Richt u op de innerlijke onrust en onuitgesproken gedachten van de personages.\n7.  **OPMAAK:** Label alle sprekers duidelijk voor eenvoudige tekst-naar-spraakconversie. Gebruik het formaat [Verteller], [Naam personage] en [Innerlijke monoloog] voor elke regel.\n8.  **TOON:** De algehele toon van het script MOET {{tone}} zijn. Dit moet de woordkeuze, het tempo en de emotionele sfeer van de vertelling en de dialoog beïnvloeden.\n\nHier is het verhaalidee van de gebruiker:\n\"{{storyIdea}}\"\n\nGenereer nu het volledige script op basis van dit idee en alle verstrekte regels."
+}
